@@ -1,0 +1,81 @@
+fileFormatVersion: 2
+guid: 4d4f202f883e90148a75bbb8ea07cbcc
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - tilemap: {instanceID: 0}
+  - None: {instanceID: 0}
+  - tileUnknown_1: {fileID: 11400000, guid: 68df8206d2f30a947a96cef765faf099, type: 2}
+  - tileUnknown_2: {fileID: 11400000, guid: 36310334dbf92ec4691e578330e89d82, type: 2}
+  - tileEmpty_1: {instanceID: 0}
+  - tileEmpty_2: {instanceID: 0}
+  - tileMine_1: {instanceID: 0}
+  - tileMine_2: {instanceID: 0}
+  - tileExploded_1: {instanceID: 0}
+  - tileExploded_2: {instanceID: 0}
+  - tileFlag_1: {instanceID: 0}
+  - tileFlag_2: {instanceID: 0}
+  - tileNum1_1: {instanceID: 0}
+  - tileNum1_2: {instanceID: 0}
+  - tileNum2_1: {instanceID: 0}
+  - tileNum2_2: {instanceID: 0}
+  - tileNum3_1: {instanceID: 0}
+  - tileNum3_2: {instanceID: 0}
+  - tileNum4_1: {instanceID: 0}
+  - tileNum4_2: {instanceID: 0}
+  - tileNum5_1: {instanceID: 0}
+  - tileNum5_2: {instanceID: 0}
+  - tileNum6_1: {instanceID: 0}
+  - tileNum6_2: {instanceID: 0}
+  - tileNum7_1: {instanceID: 0}
+  - tileNum7_2: {instanceID: 0}
+  - tileNum8_1: {instanceID: 0}
+  - tileNum8_2: {instanceID: 0}
+  - tileNum9_1: {instanceID: 0}
+  - tileNum9_2: {instanceID: 0}
+  - tileNum10_1: {instanceID: 0}
+  - tileNum10_2: {instanceID: 0}
+  - tileNum11_1: {instanceID: 0}
+  - tileNum11_2: {instanceID: 0}
+  - tileNum12_1: {instanceID: 0}
+  - tileNum12_2: {instanceID: 0}
+  - tileUnknown_1_dark: {instanceID: 0}
+  - tileUnknown_2_dark: {instanceID: 0}
+  - tileEmpty_1_dark: {instanceID: 0}
+  - tileEmpty_2_dark: {instanceID: 0}
+  - tileMine_1_dark: {instanceID: 0}
+  - tileMine_2_dark: {instanceID: 0}
+  - tileExploded_1_dark: {instanceID: 0}
+  - tileExploded_2_dark: {instanceID: 0}
+  - tileFlag_1_dark: {instanceID: 0}
+  - tileFlag_2_dark: {instanceID: 0}
+  - tileNum1_1_dark: {instanceID: 0}
+  - tileNum1_2_dark: {instanceID: 0}
+  - tileNum2_1_dark: {instanceID: 0}
+  - tileNum2_2_dark: {instanceID: 0}
+  - tileNum3_1_dark: {instanceID: 0}
+  - tileNum3_2_dark: {instanceID: 0}
+  - tileNum4_1_dark: {instanceID: 0}
+  - tileNum4_2_dark: {instanceID: 0}
+  - tileNum5_1_dark: {instanceID: 0}
+  - tileNum5_2_dark: {instanceID: 0}
+  - tileNum6_1_dark: {instanceID: 0}
+  - tileNum6_2_dark: {instanceID: 0}
+  - tileNum7_1_dark: {instanceID: 0}
+  - tileNum7_2_dark: {instanceID: 0}
+  - tileNum8_1_dark: {instanceID: 0}
+  - tileNum8_2_dark: {instanceID: 0}
+  - tileNum9_1_dark: {instanceID: 0}
+  - tileNum9_2_dark: {instanceID: 0}
+  - tileNum10_1_dark: {instanceID: 0}
+  - tileNum10_2_dark: {instanceID: 0}
+  - tileNum11_1_dark: {instanceID: 0}
+  - tileNum11_2_dark: {instanceID: 0}
+  - tileNum12_1_dark: {instanceID: 0}
+  - tileNum12_2_dark: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
