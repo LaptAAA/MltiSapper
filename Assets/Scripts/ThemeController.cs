@@ -90,7 +90,12 @@ public class ThemeController : MonoBehaviour
         Image imageQuestion = GameObject.Find("ButtonQuestion").GetComponent<Button>().GetComponent<Image>();
         imageQuestion.sprite = currentColor.questionButton;
 
-        
+        Image imageExit = GameObject.Find("ButtonExit").GetComponent<Button>().GetComponent<Image>();
+        imageExit.sprite = currentColor.exitButton;
+
+        TextMeshProUGUI textExit = GameObject.Find("TextExit").GetComponent<TextMeshProUGUI>();
+        textExit.color = new Color(currentColor.r / 255f, currentColor.g / 255f, currentColor.b / 255f);
+
 
         panelInfo.SetActive(true);
         Image imageInfoPanel = panelInfo.GetComponent<Image>();

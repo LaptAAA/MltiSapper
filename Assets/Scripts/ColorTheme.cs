@@ -112,4 +112,5 @@ public class ColorTheme : MonoBehaviour
     public Sprite rightButton;
     public Sprite questionButton;
     public Sprite infoOkButton;
+    public Sprite exitButton;
 }
