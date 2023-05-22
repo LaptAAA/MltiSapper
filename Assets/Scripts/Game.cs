@@ -314,6 +314,10 @@ public abstract class Game : MonoBehaviour
         }
     }
 
+    public void SaveTheme()
+    {
+        board.SaveTheme();
+    }
 
 
     public void Erase()

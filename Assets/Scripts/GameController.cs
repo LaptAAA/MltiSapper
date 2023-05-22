@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 public partial class GameController : MonoBehaviour
 {
@@ -39,6 +40,15 @@ public partial class GameController : MonoBehaviour
 
     public void ClickExit()
     {
+        PlayerPrefs.SetInt("countMine", Game.MineCount);
+        PlayerPrefs.Save();
+        PlayerPrefs.SetInt("width", Game.Width);
+        PlayerPrefs.Save();
+        PlayerPrefs.SetInt("height", Game.Height);
+        PlayerPrefs.Save();
+        game.SaveTheme();
+        PlayerPrefs.Save();
+
         Application.Quit();
     }
 
@@ -47,6 +57,25 @@ public partial class GameController : MonoBehaviour
 
     private void Awake()
     {
+        int countMine = PlayerPrefs.GetInt("countMine", 0);
+        if (countMine == 0)
+        {
+            countMine = 32;
+        }
+        Game.MineCount = countMine;
+        int w = PlayerPrefs.GetInt("width", 0);
+        if (w == 0)
+        {
+            w = 16;
+        }
+        Game.Width = w;
+        int h = PlayerPrefs.GetInt("height", 0);
+        if (h == 0)
+        {
+            h = 16;
+        }
+        Game.Height = h;
+
         grid = gameObject.GetComponent<Grid>();
     }
 

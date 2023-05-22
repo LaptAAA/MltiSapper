@@ -8,9 +8,18 @@ public class RectangularBoard : RenderingBoard
 {
     private void Awake()
     {
+        base.Awake();
         tilemap = GetComponent<Tilemap>();
         tilemap.tileAnchor = new Vector3(0.5f, 0.5f, 0.5f);
-        currentColor = lightColor;
+        if (color == 2)
+        {
+            currentColor = darkColor;
+        }
+        else
+        {
+            color = 1;
+            currentColor = lightColor;
+        }
     }
 
     public override void Draw(Cell[,] state)

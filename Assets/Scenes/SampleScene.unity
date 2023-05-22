@@ -743,6 +743,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36d3fe31d2e9cdf40aaffa6a7af8ef44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  themeController: {fileID: 1421215442}
+  color: 1
   lightColor: {fileID: 230899362}
   darkColor: {fileID: 230899361}
 --- !u!114 &230899357
@@ -757,6 +759,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e297209a80de464c9c6e62a1c69a347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  themeController: {fileID: 1421215442}
+  color: 1
   lightColor: {fileID: 230899362}
   darkColor: {fileID: 230899361}
 --- !u!483693784 &230899358
@@ -858,6 +862,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d4f202f883e90148a75bbb8ea07cbcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  themeController: {fileID: 1421215442}
+  color: 1
   lightColor: {fileID: 230899362}
   darkColor: {fileID: 230899361}
 --- !u!114 &230899361
@@ -872,6 +878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 853e40b54704b4142a2bc3a9d29696b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  name: 2
   r: 182
   g: 218
   b: 255
@@ -970,6 +977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 853e40b54704b4142a2bc3a9d29696b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  name: 1
   r: 68
   g: 94
   b: 121

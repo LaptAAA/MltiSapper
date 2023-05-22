@@ -5,6 +5,7 @@ using UnityEngine.Tilemaps;
 
 public class ColorTheme : MonoBehaviour
 {
+    public int name;
     public int r;
     public int g;
     public int b;

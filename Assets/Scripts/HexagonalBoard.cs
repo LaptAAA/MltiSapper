@@ -8,9 +8,17 @@ public class HexagonalBoard : RenderingBoard
     
     private void Awake()
     {
+        base.Awake();
         tilemap = GetComponent<Tilemap>();
         tilemap.tileAnchor = new Vector3(0f, 0f, 0f);
-        currentColor = lightColor;
+        if (color == 2)
+        {
+            currentColor = darkColor;
+        } else
+        {
+            color = 1;
+            currentColor = lightColor;
+        }
     }
 
     public override void Draw(Cell[,] state)
