@@ -74,27 +74,38 @@ public class TriangularBoard : RenderingBoard
                         return currentColor.tileEmpty_2_triangle;
                     }
                 case Cell.Type.Mine:
-                    if (cell.Exploded)
+
+                    if (isInverted(cell))
                     {
-                        if (isInverted(cell))
+                        if (cell.Exploded)
                         {
                             return currentColor.tileExploded_1_triangle;
                         }
+                        else if (cell.Flagged)
+                        {
+                            return currentColor.tileGoodMine_1_triangle;
+                        }
                         else
                         {
-                            return currentColor.tileExploded_2_triangle;
+                            return currentColor.tileMine_1_triangle;
                         }
+
                     }
                     else
                     {
-                        if (isInverted(cell))
+                        if (cell.Exploded)
                         {
-                            return currentColor.tileMine_1_triangle;
+                            return currentColor.tileExploded_2_triangle;
+                        }
+                        else if (cell.Flagged)
+                        {
+                            return currentColor.tileGoodMine_2_triangle;
                         }
                         else
                         {
                             return currentColor.tileMine_2_triangle;
                         }
+                        
                     }
                 case Cell.Type.Number:
                     switch (cell.Number)

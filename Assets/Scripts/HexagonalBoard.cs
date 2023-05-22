@@ -69,6 +69,10 @@ public class HexagonalBoard : RenderingBoard
                     {
                         return currentColor.tileExploded_hex;
                     }
+                    else if (cell.Flagged)
+                    {
+                        return currentColor.tileGoodMine_hex;
+                    }
                     else
                     {
                         return currentColor.tileMine_hex;

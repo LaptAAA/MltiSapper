@@ -878,7 +878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 853e40b54704b4142a2bc3a9d29696b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 2
+  name: 0
   r: 182
   g: 218
   b: 255
@@ -906,6 +906,8 @@ MonoBehaviour:
   tileEmpty_2_triangle: {fileID: 11400000, guid: 6dad32fbc9cf2c24aa442f7880d28f96, type: 2}
   tileMine_1_triangle: {fileID: 11400000, guid: 3927e315b05d5554ab01a329a6e27f0e, type: 2}
   tileMine_2_triangle: {fileID: 11400000, guid: 99fb245d59c6f3d4c801eb28de578e40, type: 2}
+  tileGoodMine_1_triangle: {fileID: 11400000, guid: a6fee2f6bba0b524d87fa6c63f0d69b9, type: 2}
+  tileGoodMine_2_triangle: {fileID: 11400000, guid: d53dc2ff6f07cea4eaed29e28ba62eb7, type: 2}
   tileExploded_1_triangle: {fileID: 11400000, guid: 617df49449398a64bb47297dfd409f96, type: 2}
   tileExploded_2_triangle: {fileID: 11400000, guid: 4e2877ad49a8a65429956b3cee2c2870, type: 2}
   tileFlag_1_triangle: {fileID: 11400000, guid: a5cab3491cbab2346b5f6b735563666f, type: 2}
@@ -937,6 +939,7 @@ MonoBehaviour:
   tileUnknown_hex: {fileID: 11400000, guid: 140360dec592a0e4b8cc04d85478ffcc, type: 2}
   tileEmpty_hex: {fileID: 11400000, guid: 7d1c8d32890e7b94fbcac55a009b047c, type: 2}
   tileMine_hex: {fileID: 11400000, guid: 39cf259948dec5641a943ac69f3f5759, type: 2}
+  tileGoodMine_hex: {fileID: 11400000, guid: 171eb9829bc311f42be90462bf3561d1, type: 2}
   tileExploded_hex: {fileID: 11400000, guid: dd0661f90a0db6a4db9e300393c55a2d, type: 2}
   tileFlag_hex: {fileID: 11400000, guid: 1684e5c619b36534fb9c846f5218c615, type: 2}
   tileNum1_hex: {fileID: 11400000, guid: 9c97bfe54f8e2284ab78d82ef71a99a7, type: 2}
@@ -977,7 +980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 853e40b54704b4142a2bc3a9d29696b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 1
+  name: 0
   r: 68
   g: 94
   b: 121
@@ -1005,6 +1008,8 @@ MonoBehaviour:
   tileEmpty_2_triangle: {fileID: 11400000, guid: 0f6ceb8c08e60e740853cafe740687b9, type: 2}
   tileMine_1_triangle: {fileID: 11400000, guid: 797991e63ed6c674893790ad48859a4a, type: 2}
   tileMine_2_triangle: {fileID: 11400000, guid: 4e34497df6e51a14d9d0de62a53382fa, type: 2}
+  tileGoodMine_1_triangle: {fileID: 11400000, guid: 4ee0631ff3deb5d4cad7fe2f05392f61, type: 2}
+  tileGoodMine_2_triangle: {fileID: 11400000, guid: d4c780e481a01944db8f9ff9670b3973, type: 2}
   tileExploded_1_triangle: {fileID: 11400000, guid: 77a319ab40602a245b2996085059c7bb, type: 2}
   tileExploded_2_triangle: {fileID: 11400000, guid: 5ce789e805318e343983bb902244ece4, type: 2}
   tileFlag_1_triangle: {fileID: 11400000, guid: 77c4dced1ad8b244ea90fdfb17d1747b, type: 2}
@@ -1036,6 +1041,7 @@ MonoBehaviour:
   tileUnknown_hex: {fileID: 11400000, guid: 2acf1950efd882d49b1228aedb69ead8, type: 2}
   tileEmpty_hex: {fileID: 11400000, guid: 67f0b99ea0886784d8dce69fd70e3053, type: 2}
   tileMine_hex: {fileID: 11400000, guid: 97c88037199f29444aeae0f6ef3803e7, type: 2}
+  tileGoodMine_hex: {fileID: 11400000, guid: df1ef62f605d76d43a4fedcb396a1c00, type: 2}
   tileExploded_hex: {fileID: 11400000, guid: 3a62273e296e17d4b8075cf0956db38b, type: 2}
   tileFlag_hex: {fileID: 11400000, guid: 78e880cba3e77b042982e276eb468e27, type: 2}
   tileNum1_hex: {fileID: 11400000, guid: be6c6ebeea5c18e4f90b9ae8fee12311, type: 2}

@@ -40,6 +40,9 @@ public class ColorTheme : MonoBehaviour
     public Tile tileMine_1_triangle;
     public Tile tileMine_2_triangle;
 
+    public Tile tileGoodMine_1_triangle;
+    public Tile tileGoodMine_2_triangle;
+
     public Tile tileExploded_1_triangle;
     public Tile tileExploded_2_triangle;
 
@@ -85,6 +88,7 @@ public class ColorTheme : MonoBehaviour
     public Tile tileUnknown_hex;
     public Tile tileEmpty_hex;
     public Tile tileMine_hex;
+    public Tile tileGoodMine_hex;
     public Tile tileExploded_hex;
     public Tile tileFlag_hex;
     public Tile tileNum1_hex;
